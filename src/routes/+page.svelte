@@ -6,14 +6,14 @@
 	import TestCsvPage from "./TestCsvPage.svelte";
 
     onMount(() => {
-       toast.info("LogIn exitoso", {
+       /*toast.info("LogIn exitoso", {
             description: "Bienvenido a Chronos V3",
             duration: 5000,
             style: {
                 backgroundColor: "#f0f4f8",
                 color: "#333"
             }
-        });
+        });*/
     });
 
 </script>
