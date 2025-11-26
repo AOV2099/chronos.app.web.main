@@ -2,8 +2,10 @@ import { LayoutDashboard, CalendarSearch, GraduationCap, BookA, ClipboardPlus, B
 import { writable } from "svelte/store";
 
 
-//export const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3000/api";
-export const API_BASE_URL = "http://localhost:3000/api";
+
+//export const API_BASE_URL = "http://localhost:3000/api";
+export const API_BASE_URL = "http://ec2-18-118-165-200.us-east-2.compute.amazonaws.com:3000/api";
+
 export const HORARIO_URL = `${API_BASE_URL}/cargar-horario`;
 export const ASIGNATURAS_URL = `${API_BASE_URL}/cargar-asignaturas`;
 export const PROFESORES_URL = `${API_BASE_URL}/cargar-profesores`;
